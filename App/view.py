@@ -67,8 +67,7 @@ def load_tags(app):
     """
     Carga los Tags
     """
-    tags = logic.load_tags(app,
-                           "GoodReads/tags.csv")
+    tags = logic.load_tags(app,"GoodReads/tags.csv")
     return tags
 
 
